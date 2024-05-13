@@ -63,14 +63,22 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-Parisienne);
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: normal;
     margin-bottom: 10px;
 
 }
 
-header > p {
+header > h2 {
+    color: white;
     font-family: var(--fonte-Parisienne);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/*header > p {
+    font-family: var(--fonte-Parisienneti);
     font-size: 1.8em;
     color: white;
     max-width: 600px;
@@ -79,7 +87,7 @@ header > p {
     margin: auto;
     padding-bottom: 20px;
     text-shadow: 2px 2px 0p rgba(0, 0, 0, 0.315);
-}
+}*/
 
 nav {
     font-family: var(--fonte-Orbitron);
