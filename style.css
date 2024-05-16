@@ -163,61 +163,6 @@ main p > a:hover {
     color: white;
 }
 
-/*form {
-    display: inline-block;
-    background-color: var(--cor0);
-    height: 300px;
-    width: 50%;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 10px 190px;
-}
-
-form label {
-    font-size: 1em;
-    font-weight: normal;
-    background-color: var(--cor0);
-    border-radius: 3px;
-}
-
-form label > p {
-    font-family: var(--fonte-Orbitron);
-    font-size: 1em;
-    font-weight: bold;
-}
-
-form input[type=submit] {
-    background-color: var(--cor0);
-    font-family: var(--fonte-Orbitron);
-    font-weight: bold;
-    font-size: 1em;
-}
-  
-input[type=submit]:hover {
-    background-color: #20262d7a;
-}
-
-input[type=text] {
-    border: 1px solid black;
-    border-radius: 2px;
-}
-
-input[type=email] {
-    border: 1px solid black;
-    border-radius: 2px;
-}
-
-input[type=tel] {
-    border: 1px solid black;
-    border-radius: 2px;
-}
-
-select {
-    border: 1px solid black;
-    border-radius: 2px;
-
-*/
-
 section.format > p {
     display: block;
     background-color: var(--cor0);
@@ -276,7 +221,7 @@ div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 57.5%;
+    padding-bottom: 56.5%;
     position: relative;
 }
 
@@ -294,12 +239,14 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-}
+    }
 
 .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
 .slide-controller:nth-child(2):checked ~ .slide-show .slides-list{--selected-item: 1;}
 .slide-controller:nth-child(3):checked ~ .slide-show .slides-list{--selected-item: 2;}
 .slide-controller:nth-child(4):checked ~ .slide-show .slides-list{--selected-item: 3;}
+.slide-controller:nth-child(5):checked ~ .slide-show .slides-list{--selected-item: 4;}
+.slide-controller:nth-child(6):checked ~ .slide-show .slides-list{--selected-item: 5;}
 
 .slide-show{
   overflow: hidden;
@@ -307,7 +254,7 @@ footer {
 
 .slides-list{
   --selected-item: 0;
-  --total-items: 4;
+  --total-items: 6;
   list-style-type: none;
   margin: 10px 0;
   padding: 0;
