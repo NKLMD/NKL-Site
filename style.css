@@ -123,6 +123,11 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+main img {
+    width: 100%;
+    margin: auto;
+}
+
 main h1 {
     text-align: center;
     font-family: var(--fonte-Orbitron);
