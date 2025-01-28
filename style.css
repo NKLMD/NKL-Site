@@ -156,7 +156,7 @@ main p {
 main p > a {
     color: black;
     font-family: var(--fonte-Orbitron);
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     padding: 4px;
@@ -194,7 +194,7 @@ section.format1 > p {
 }
 
 strong {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 div.back {
